@@ -32,5 +32,6 @@
             echo mysqli_error($con);
         }
     ?>
+    <a href="index.html" ><INPUt type="button" value="voltar"></INPUt></a>
 </body>
 </html>
