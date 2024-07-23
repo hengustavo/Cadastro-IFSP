@@ -33,5 +33,6 @@
         }
     ?>
     <a href="index.html" ><INPUt type="button" value="voltar"></INPUt></a>
+    <a href="ListarCidade.php" ><input type="button" value="Listar"></input></a>
 </body>
 </html>
