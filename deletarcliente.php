@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +11,7 @@
     <?php
     include('includes/conexao.php');
     $id = $_GET['id'];
-    $sql = "DELETE FROM Cidade WHERE id=$id";
+    $sql = "DELETE FROM Cliente WHERE id=$id";
     $result = mysqli_query($con,$sql);
     if($result)
         echo "<h2>Dados Deletados!</h2>";

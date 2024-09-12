@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(to bottom, #000000, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #cccccc;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block; /* Para ajustar ao conteúdo */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #333333;
+}
+
+
+/* Estilos para o retângulo centralizado */
+.retangulo {
+    width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #00000065;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.767);
+    text-align: center;
+}
+
+/* Estilos para o título */
+.retangulo h1 {
+    font-size: 24px; /* tamanho da fonte */
+    margin-bottom: 20px; /* margem inferior */
+    color: rgb(255, 255, 255); /* cor do texto */
+}
+
+/* Efeito de hover nos botões */
+.retangulo .botao:hover {
+    background-color: #000000;
+    color: #ffffff; /* cor de fundo do hover */
+}
+
+/* Estilo para o link dentro do botão */
+.retangulo .botao a {
+    color: inherit; /* herda a cor do texto do botão */
+    text-decoration: none; /* remove sublinhado */
+    display: block; /* torna o link em bloco para preencher o botão */
+    height: 100%; /* altura total do link */
+    width: 100%; /* largura total do link */
+    padding: 10px 20px; /* padding interno */
+}
